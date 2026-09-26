@@ -908,3 +908,109 @@ button {
       margin: 32px 0 38px;
     }
 }
+
+/* ITERATION 4 — LARGE DESKTOP (1440px+) */
+@media (min-width: 1440px) {
+  /* NAVIGATION */
+  .navbar {
+    /* box-model */
+    padding: 0 3%;
+  }
+
+    .navbar-brand {
+      /* layout */
+      gap: 42px;
+    }
+
+  /* HERO */
+  .hero {
+    /* box-model */
+    min-height: 760px;
+  }
+
+    .hero-content {
+      /* box-model */
+      width: 50%;
+      padding: 52px 0 0 7%;
+    }
+
+      .hero h1 {
+        /* box-model */
+        max-width: 490px;
+        margin-bottom: 90px;
+
+        /* typo */
+        font-size: 82px;
+      }
+
+      .hero-description {
+        /* box-model */
+        max-width: 460px;
+
+        /* typo */
+        font-size: 23px;
+      }
+
+      .hero-actions {
+        /* box-model */
+        max-width: 610px;
+      }
+
+        .hero-actions .button {
+          /* box-model */
+          min-height: 56px;
+        }
+
+    .hero-image {
+      /* layout */
+      top: 165px;
+      left: 51%;
+
+      /* box-model */
+      width: 49%;
+    }
+
+      .hero-image img {
+        /* box-model */
+        width: min(670px, 48vw);
+      }
+
+  /* TRUSTED COMPANIES */
+  .trusted {
+    /* box-model */
+    padding: 48px 7% 54px;
+  }
+
+    .trusted-logos img {
+      /* box-model */
+      max-height: 44px;
+    }
+
+  /* STATISTICS */
+  .statistics {
+    /* box-model */
+    padding: 94px 7% 108px;
+  }
+
+    .statistics-intro {
+      /* box-model */
+      margin-bottom: 82px;
+    }
+
+    .statistics-list li {
+      /* box-model */
+      max-width: 245px;
+    }
+
+  /* CALL TO ACTION */
+  .cta {
+    /* box-model */
+    padding: 64px 7% 56px;
+  }
+
+  /* FOOTER */
+  .footer {
+    /* box-model */
+    padding: 46px 4% 38px;
+  }
+}
