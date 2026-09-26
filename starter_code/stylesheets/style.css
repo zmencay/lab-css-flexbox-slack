@@ -462,3 +462,221 @@ button {
     font-size: 10px;
     line-height: 1.5;
   }
+
+
+/* ITERATION 2 — TABLET (768px–1023px) */
+@media (min-width: 768px) {
+  /* NAVIGATION */
+  .navbar {
+    /* box-model */
+    padding: 0 30px;
+  }
+
+    .navbar-brand > a img {
+      /* box-model */
+      width: 92px;
+    }
+
+  /* HERO */
+  .hero {
+    /* layout */
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+
+    /* box-model */
+    min-height: 800px;
+
+    /* presentation */
+    background-image: url(../images/background-singup.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+  }
+
+    .hero-content {
+      /* layout */
+      position: relative;
+      z-index: 1;
+
+      /* box-model */
+      width: 62%;
+      padding: 48px 0 0 29px;
+
+      /* typo */
+      text-align: left;
+    }
+
+      .hero h1 {
+        /* box-model */
+        margin-bottom: 38px;
+
+        /* typo */
+        font-size: 72px;
+        line-height: 1.08;
+      }
+
+      .hero-description {
+        /* box-model */
+        max-width: 400px;
+        margin-bottom: 20px;
+
+        /* typo */
+        font-size: 22px;
+      }
+
+      .hero-actions {
+        /* box-model */
+        max-width: 450px;
+      }
+
+        .hero-actions .button {
+          /* box-model */
+          min-height: 54px;
+        }
+
+    .hero-image {
+      /* layout */
+      position: absolute;
+      top: 200px;
+      left: 61%;
+
+      /* box-model */
+      width: 540px;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+    }
+
+      .hero-image img {
+        /* box-model */
+        width: 540px;
+        margin: 0;
+      }
+
+  /* TRUSTED COMPANIES */
+  .trusted {
+    /* box-model */
+    padding: 47px 28px 53px;
+  }
+
+    .trusted-logos {
+      /* layout */
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+      .trusted-logos img {
+        /* box-model */
+        max-width: 19%;
+        max-height: 36px;
+      }
+
+  /* STATISTICS */
+  .statistics {
+    /* box-model */
+    padding: 76px 28px 86px;
+  }
+
+    .statistics h2 {
+      /* typo */
+      font-size: 32px;
+    }
+
+    .statistics-intro {
+      /* box-model */
+      margin-bottom: 68px;
+
+      /* typo */
+      font-size: 16px;
+    }
+
+    .statistics-list {
+      /* layout */
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 25px;
+
+      /* typo */
+      text-align: left;
+    }
+
+      .statistics-list li {
+        /* box-model */
+        width: 30%;
+        max-width: none;
+      }
+
+        .statistics-list strong {
+          /* typo */
+          font-size: 54px;
+        }
+
+        .statistics-list p {
+          /* typo */
+          font-size: 13px;
+        }
+
+    .statistics-note {
+      /* layout */
+      display: none;
+    }
+
+  /* CALL TO ACTION */
+  .cta {
+    /* box-model */
+    padding: 44px 11% 50px;
+  }
+
+    .cta h2 {
+      /* typo */
+      font-size: 34px;
+    }
+
+    .cta-actions {
+      /* box-model */
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+      .cta-actions .button {
+        /* box-model */
+        min-height: 54px;
+      }
+
+  /* FOOTER */
+  .footer {
+    /* box-model */
+    padding: 44px 28px 36px;
+  }
+
+    .footer-navigation {
+      /* box-model */
+      padding-top: 34px;
+    }
+
+      .footer-links {
+        /* layout */
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+        .footer-links a {
+          /* typo */
+          font-size: 10px;
+        }
+
+    .social-links {
+      /* layout */
+      justify-content: flex-start;
+      gap: 65px;
+
+      /* box-model */
+      margin: 36px 0 50px;
+    }
+}
+
